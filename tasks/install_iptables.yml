@@ -1,0 +1,9 @@
+---
+- name: Install snmpd
+  package:
+    name:
+      - iptables
+      - iptables-services
+      - net-snmp
+      - net-snmp-utils
+    state: present

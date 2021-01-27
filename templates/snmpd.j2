@@ -1,0 +1,6 @@
+{% if snmpd_config is defined %}
+{% for str in snmpd_config %}
+{{snmpd_config}}
+{% endfor %}
+{% endif %}
+

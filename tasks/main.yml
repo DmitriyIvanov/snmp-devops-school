@@ -1,0 +1,8 @@
+---
+# tasks file for snmpd
+- name: Install snmpd
+  import_tasks: install_snmpd.yml
+- name: Install iptables
+  import_tasks: install_iptables.yml
+- name: Configure snmpd
+  import_tasks: configure_snmpd.yml
